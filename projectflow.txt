@@ -34,3 +34,4 @@ Adding a remote S3 storage to DVC:
 25> dev remote add -d dvcstore s3://bucketname
 26> dvc commit-push the exp outcome that you want to keep
 27> Finally git add, commit, push
+28> We have added stages for each componenets inside dvc.yaml, dvc also offer this command "dvc stage add -n data_ingestion -d src/data_ingestion.py -o data/raw python src/data_ingestion.py" 
